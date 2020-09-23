@@ -1,0 +1,341 @@
+/* GLOBAL STYLE */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+nav h1{
+    font-size: 30px;
+    font-family: 'Crete Round', serif;
+}
+nav h1 span{
+    color: #f715ba;
+}
+ul{
+    display: flex;
+    padding: 10px 0px 0 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* HERO */
+.hero{
+    background-image: url(/images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    
+}
+.hero .title-2{
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+    position: absolute;
+    top: 38%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.hero .title-1{
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.hero button{
+    background: #f715ba;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 47%;
+    position: absolute;
+    top: 60%;
+    cursor: pointer;
+    border: none;
+}
+
+/* ACCEUIL */
+/* SECTION QUALITE */
+.accueil{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.accueil h2{
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.qualite{
+    margin-right: 30px;
+}
+.ecologie{
+    margin-right: 30px;
+}
+
+/* CARTES */
+.cartes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: rgb(240, 240, 240);
+    min-height: 50vh;
+}
+.carte-1{
+    background: url('./images/article-image-1.jpg');
+    min-height: 30vh;
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.carte-1 .bloc-1{
+    text-align: center;
+    margin-right: 55%;
+    background: rgb(255, 255, 255,0.95);
+    min-height: 30vh;
+    border-radius: 5px;
+    padding: 40px 20px;
+}
+.carte-1 .bloc-1 h2:after{
+    display: block;
+    content: '';
+    width: 180px;
+    height: 1px;
+    background-color: rgb(180, 180, 180);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.carte-2{
+    background: url('./images/article-image-2.jpg');
+    min-height: 30vh;
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 5px;
+}
+.carte-2 .bloc-2{
+    text-align: center;
+    margin-right: 55%;
+    background: rgb(255, 255, 255,0.9);
+    min-height: 30vh;
+    border-radius: 5px;
+    padding: 40px 20px;
+}
+.carte-2 .bloc-2 h2:after{
+    display: block;
+    content: '';
+    width: 180px;
+    height: 1px;
+    background-color: rgb(180, 180, 180);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cartes p{
+    font-style: italic;
+    color: rgb(144, 144, 144);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cartes button{
+    background: #f715ba;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
+
+/* CONTACT */
+
+.titre-contact h1{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.titre-contact p{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(144, 144, 144);
+}
+.titre-contact h1:after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 200px;
+    background-color: rgb(143, 239, 248);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input{
+    margin-right: 60px;
+    font-size: 18px;
+    padding: 7px 10px 7px 10px;
+    color: rgb(190, 190, 190);
+    border: 2px solid rgb(216, 215, 215);
+}
+
+.button-3{
+    background: #f715ba;
+    padding: 9px 25px 9px 25px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 50px;
+    background: rgb(24, 24, 24);
+    min-height: 30vh;
+    width: 100%;
+    text-align: center;
+    padding: 90px 0;
+}
+footer h3{
+    font-size: 30px;
+    font-family: 'Crete Round', serif;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+footer h3 span{
+    color: #f715ba;
+}
+footer p{
+    color: rgb(77, 77, 77);
+}
+
+/* RESPONSIVE SMARTPHONE */
+@media screen and (max-width : 500px){
+    /* NAVBAR */
+    nav{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    nav li{
+        font-size: 13px;
+    }
+    nav a{
+        margin-right: 12px;
+    }
+    /* HERO */
+    .hero .title-2{
+        margin-top: -30px;
+        font-size: 25px;
+    }
+    .hero .title-1{
+        margin-top: -45px;
+        font-size: 25px;
+    }
+    .hero button{
+    margin-left: 35%;
+    position: absolute;
+    top: 50%;
+    }
+    /* ACCUEIL */
+    .ecologie img{
+        margin-top: 40px;
+    }
+    .equitable img{
+        margin-top: 40px;
+    }
+    /* CARTES */
+    .cartes{
+        flex-flow: column; 
+        background: rgb(240, 240, 240);
+        min-height: 80vh;
+    }
+    .carte-1{
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+    .carte-2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .carte-2 .bloc-2 h2:after{
+        width: 120px;
+    }
+    .carte-1 .bloc-1 h2:after{
+        width: 120px;
+    }
+
+/* FOOTER */
+    .contact form{
+        flex-direction: column;
+    }
+    .contact p{
+        max-width: 500px;
+        font-size: 12px;
+    }
+    .nom{
+        margin-bottom: 20px;
+        margin-left: 20%;
+        display: flex;
+    }
+    .nom label{
+        margin-top: 5px;
+    }
+    .email{
+        margin-bottom: 20px;
+        margin-left: 20%;
+        display: flex;
+    }
+    .email label{
+        margin-top: 5px;
+    }
+}
